@@ -1,6 +1,6 @@
-# Assignment-1
+# Assignment
 
-My first assignment in a Python course.
+Assignment in a Python course.
 
 ## Project Structure
 
@@ -51,17 +51,56 @@ How to run: python "Module 2/Task-3.py"
 Task 4: Sum of 1 to 50
 Description: Computes and prints the sum of integers from 1 to 50.
 How to run: python "Module 2/Task-4.py"
-
-Requirements:
-- Python 3.x
-
 Notes:
 - Files referenced are in the same folder: Task-3.py and Task-4.py
 - This file is plain text (no markdown formatting).
 ```
+
+## Module 3
+
+### Task 5: Factorial Calculation
+This task demonstrates calculating the factorial of a number using a loop.
+- **Input:** Takes an integer from the user
+- **Process:** Multiplies all numbers from the input down to 1 using a while loop
+- **Output:** Displays the factorial of the given number
+
+**Example:**
+```
+Enter the number: 5
+120
+```
+
+### Task 6: Mathematical Functions using Math Module
+This task demonstrates the use of Python's built-in `math` module for various mathematical calculations.
+- **Input:** Takes a number from the user
+- **Operations:** 
+  - Square root calculation using `math.sqrt()`
+  - Logarithm calculation using `math.log()`
+  - Sine calculation using `math.sin()`
+- **Output:** Displays the results of all three mathematical operations
+
+**Example:**
+```
+Enter the Number: 16
+Square root of the 16.0 : 4.0
+Logarithm of the 16.0 : 2.772588722239781
+Sine of the 16.0 : -0.28790331666062016
+```
+
+## How to Run
+
+To run any task in Module 3, use Python from the command line:
+
+```bash
+python Module\ 3/Task-5.py
+python Module\ 3/Task-6.py
+```
+
 ## Requirements
 
 - Python 3.x
+- `math` module (built-in)
+
 
 ## Author
 Assignment completed as part of a Python course.
