@@ -59,9 +59,9 @@ Notes:
 ## Module 3
 
 ### Task 5: Factorial Calculation
-This task demonstrates calculating the factorial of a number using a loop.
+This task demonstrates calculating the factorial of a number.
 - **Input:** Takes an integer from the user
-- **Process:** Multiplies all numbers from the input down to 1 using a while loop
+- **Process:** Multiplies all numbers from the input down to 1 using a recursion 
 - **Output:** Displays the factorial of the given number
 
 **Example:**
