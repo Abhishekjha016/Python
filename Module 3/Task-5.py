@@ -1,13 +1,20 @@
 #Calculating factorial using a loop
 
-num1 = int(input("Enter the number: "))
-def fact_rec(num1):
-    if num1 == 1:
-        return 1
-    elif num1 > 1:
-        factorial = num1 * fact_rec(num1 - 1)
-        return factorial
-    else:
-        print(f" The Factorial of {num1} is not existing.")
+try:
+    num1 = int(input("Enter the number: "))
+    def fact_rec(num1):
+        if num1 == 1:
+            return 1
+        elif num1 > 1:
+            factorial = num1 * fact_rec(num1 - 1)
+            return factorial
+        elif num1 == 0:
+            return 1
+        else:
+            print(f" The Factorial of {num1} is not existing.")
 
-print(f"Factorial of {num1} is {fact_rec(num1)}")
+    print(f"Factorial of {num1} is {fact_rec(num1)}")
+
+except:
+    print ("The literal is not  correct. Please input integer.")
+    
